@@ -21,14 +21,14 @@ $ scp apartmentparser-*.json pi@192.168.x.xxx:/home/pi/demo
 * Share the spreadsheet with the "client_email" address in the .json file, select “Can edit,” and click "Send"
   * Will receive an email with the subject "Delivery Status Notification (Failure)" and the message "Address not found" from mailer-daemon@google.com
 
-### Edit spreadsheet2.py
+### Edit spreadsheet3.py
 
 > GDOCS_OAUTH_JSON = 'apartmentparser-xxxxxxxxxxxx.json'
 
 > GDOCS_SPREADSHEET_NAME = 'Apartment Search'
 
-### Run spreadsheet2.py
+### Run spreadsheet3.py
 ```sh
-$ python3 spreadsheet2.py
+$ python3 spreadsheet3.py
 ```
 ### Will ask you for an Apartments.com link; you must enter a link to an apartment from apartments.com (apartments with multiple units listed usually do not work correctly)
